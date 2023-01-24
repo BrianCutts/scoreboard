@@ -20,11 +20,16 @@
    background-color: rgb(31, 17, 44);
    padding: 28px;
    color: #df2b67e8;
+   text-align: center;
 }
 
 .button-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 } 
+
+.home-buttons, .away-buttons {
+    flex-basis: 100px;
+}
 
